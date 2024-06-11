@@ -1,0 +1,87 @@
+.bod{
+  width: 80%;
+  margin: auto;
+}
+.he {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  height: 70px;
+}
+.he h1{
+  padding-top: 15px;
+}
+.for{
+  margin-top: 1%;
+}
+.inn{
+  width: 60%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: gray;
+  padding: 10px 0px 10px 0px;
+}
+.in{
+  width: 95%;
+  margin: auto;
+  
+}
+.name{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fn{
+  padding-right: 20%;
+}
+.fni{
+  margin-top: 2%;
+  height: 25px;
+  width: 225px;
+}
+.lni{
+  margin-top: 2%;
+  height: 25px;
+  width: 225px;
+}
+.em{
+  margin-top: 3%;
+}
+.emi{
+  margin-top: 2%;
+  width: 96.18%;
+  height: 25px;
+}
+.mn{
+  margin-top: 3%;
+}
+.mni{
+  margin-top: 2%;
+  width: 96.18%;
+  height: 25px;
+}
+.bg{
+  margin-top: 3%;
+}
+.bgi{
+  margin-top: 2%;
+  width: 96.18%;
+  height: 25px;
+}
+.ad{
+  margin-top: 3%;
+}
+.adi{
+  margin-top: 2%;
+  width: 96.18%;
+  height: 80px;
+}
+.g{
+  margin-top: 3%;
+}
+.gi{
+  margin-top: 2%;
+  display: flex;  
+}
+.ma{
+  padding: 0% 20% 0% 5%;
+}

@@ -1,0 +1,83 @@
+<!-- © Saran 727722EUEE096 -->
+<html>
+
+    <head>
+        <title>Bulb On/Off</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            img{
+                height: 260px;   
+            }
+            .btt{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .bts{
+                margin-top: 60px;
+                width: 15%;
+                text-align: center;
+                padding-bottom: 20;
+                background-color: grey;
+                border-radius: 20px;
+            }
+            button{
+                width: 35%;
+                margin: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <script>
+            function bulbOff(){
+                let bulb_image = document.getElementById("bimg");
+                bulb_image.src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png";
+                let cat_image = document.getElementById("cimg");
+                cat_image.src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-eyes-img.png";
+                let onbt = document.getElementById("onbutton");
+                onbt.style.backgroundColor = "white";
+                let offbt = document.getElementById("offbutton");
+                offbt.style.backgroundColor = "green";
+                document.getElementById("tc").textContent = "Switch Off";
+
+            }
+            function bulbOn(){
+                let bulb_image = document.getElementById("bimg");
+                bulb_image.src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png";
+                let cat_image = document.getElementById("cimg");
+                cat_image.src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png";
+                let onbt = document.getElementById("onbutton");
+                onbt.style.backgroundColor = "green";
+                let offbt = document.getElementById("offbutton");
+                offbt.style.backgroundColor = "white";
+                document.getElementById("tc").textContent = "Switch On";
+            }
+        </script>
+
+        <div class="container">
+            <div>
+                <img id="bimg" style="margin-left: 30px;" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" alt="BulbOn">
+            </div>
+            <div>
+                <img id="cimg" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" alt="CatOn">
+            </div>
+        </div>
+        <div class="btt">
+            <div class="bts">
+                <h2 id="tc">Switch On</h2>
+                <button style="background-color: green;" onclick="bulbOn()" id="onbutton">On</button>
+                <button style="background-color: white;" onclick="bulbOff()" id="offbutton">Off</button>
+            </div>
+        </div>
+
+    </body>
+</html>
